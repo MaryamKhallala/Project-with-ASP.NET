@@ -1,0 +1,31 @@
+2022-03-14 18:58:25.339 +01:00 [INF] Starting Host 
+2022-03-14 18:58:35.432 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-14 18:58:36.450 +01:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2022-03-14 18:58:36.473 +01:00 [INF] Db is created succefully
+2022-03-14 18:58:36.612 +01:00 [INF] User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-03-14 18:58:37.194 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-14 18:58:37.216 +01:00 [INF] Hosting environment: Development
+2022-03-14 18:58:37.243 +01:00 [INF] Content root path: C:\Users\HP\Desktop\Cycle Ing ILISI\2eme Année\Phase 3\DotNet\LivreCRUD\WebHello
+2022-03-14 18:58:37.343 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/ - -
+2022-03-14 18:58:37.512 +01:00 [INF] Executing endpoint '/Index'
+2022-03-14 18:58:37.639 +01:00 [INF] Route matched with {page = "/Index", action = "", controller = ""}. Executing page /Index
+2022-03-14 18:58:37.678 +01:00 [INF] Executing handler method WebHello.Pages.IndexModel.OnGet - ModelState is "Valid"
+2022-03-14 18:58:37.685 +01:00 [INF] Executed handler method OnGet, returned result .
+2022-03-14 18:58:37.710 +01:00 [INF] Executing an implicit handler method - ModelState is "Valid"
+2022-03-14 18:58:37.729 +01:00 [INF] Executed an implicit handler method, returned result Microsoft.AspNetCore.Mvc.RazorPages.PageResult.
+2022-03-14 18:58:38.120 +01:00 [INF] Executed page /Index in 460.9492ms
+2022-03-14 18:58:38.134 +01:00 [INF] Executed endpoint '/Index'
+2022-03-14 18:58:38.196 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/ - - - 200 - text/html;+charset=utf-8 862.4333ms
+2022-03-14 18:58:38.217 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/lib/bootstrap/dist/css/bootstrap.min.css - -
+2022-03-14 18:58:38.217 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/js/site.js - -
+2022-03-14 18:58:38.217 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/lib/jquery/dist/jquery.min.js - -
+2022-03-14 18:58:38.217 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/css/site.css - -
+2022-03-14 18:58:38.304 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2022-03-14 18:58:38.307 +01:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2022-03-14 18:58:38.307 +01:00 [INF] The file /css/site.css was not modified
+2022-03-14 18:58:38.330 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/css/site.css - - - 304 - text/css 112.5822ms
+2022-03-14 18:58:38.330 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/lib/bootstrap/dist/css/bootstrap.min.css - - - 304 - text/css 112.5814ms
+2022-03-14 18:58:38.447 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/lib/jquery/dist/jquery.min.js - - - 404 - - 229.1107ms
+2022-03-14 18:58:38.495 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/js/site.js - - - 404 - - 277.9827ms
+2022-03-14 18:58:38.488 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 404 - - 184.1820ms

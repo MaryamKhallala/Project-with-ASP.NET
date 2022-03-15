@@ -1,0 +1,144 @@
+2022-03-15 00:51:29.144 +01:00 [INF] Request starting HTTP/2 GET https://localhost:44388/api/showLivres - -
+2022-03-15 00:51:29.362 +01:00 [INF] Executing endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 00:51:29.380 +01:00 [INF] Route matched with {action = "Get", controller = "LivresControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[WebHello.Livre]] Get() on controller WebHello.Controllers.LivresControllers (WebHello).
+2022-03-15 00:51:29.400 +01:00 [INF] [GET]: 
+2022-03-15 00:51:29.450 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-15 00:51:29.534 +01:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."ID", "l"."ISBN", "l"."Title"
+FROM "Livres" AS "l"
+2022-03-15 00:51:29.566 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebHello.Livre, WebHello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-15 00:51:29.584 +01:00 [INF] Executed action WebHello.Controllers.LivresControllers.Get (WebHello) in 199.4265ms
+2022-03-15 00:51:29.587 +01:00 [INF] Executed endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 00:51:29.612 +01:00 [INF] Request finished HTTP/2 GET https://localhost:44388/api/showLivres - - - 200 - application/json;+charset=utf-8 483.2882ms
+2022-03-15 06:29:26.145 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44388/api/showLivres - -
+2022-03-15 06:29:26.173 +01:00 [INF] Executing endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:29:26.185 +01:00 [INF] Route matched with {action = "Get", controller = "LivresControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[WebHello.Livre]] Get() on controller WebHello.Controllers.LivresControllers (WebHello).
+2022-03-15 06:29:26.198 +01:00 [INF] [GET]: 
+2022-03-15 06:29:26.238 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-15 06:29:26.291 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."ID", "l"."ISBN", "l"."Title"
+FROM "Livres" AS "l"
+2022-03-15 06:29:26.353 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebHello.Livre, WebHello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-15 06:29:26.358 +01:00 [INF] Executed action WebHello.Controllers.LivresControllers.Get (WebHello) in 169.2156ms
+2022-03-15 06:29:26.362 +01:00 [INF] Executed endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:29:26.370 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44388/api/showLivres - - - 200 - application/json;+charset=utf-8 227.9199ms
+2022-03-15 06:29:36.574 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44388/api/showLivres - -
+2022-03-15 06:29:36.585 +01:00 [INF] Executing endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:29:36.593 +01:00 [INF] Route matched with {action = "Get", controller = "LivresControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[WebHello.Livre]] Get() on controller WebHello.Controllers.LivresControllers (WebHello).
+2022-03-15 06:29:36.600 +01:00 [INF] [GET]: 
+2022-03-15 06:29:36.628 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-15 06:29:36.658 +01:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."ID", "l"."ISBN", "l"."Title"
+FROM "Livres" AS "l"
+2022-03-15 06:29:36.671 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebHello.Livre, WebHello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-15 06:29:36.678 +01:00 [INF] Executed action WebHello.Controllers.LivresControllers.Get (WebHello) in 78.0179ms
+2022-03-15 06:29:36.683 +01:00 [INF] Executed endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:29:36.711 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44388/api/showLivres - - - 200 - application/json;+charset=utf-8 137.6273ms
+2022-03-15 06:29:43.732 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44388/api/showLivres - -
+2022-03-15 06:29:43.745 +01:00 [INF] Executing endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:29:43.775 +01:00 [INF] Route matched with {action = "Get", controller = "LivresControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[WebHello.Livre]] Get() on controller WebHello.Controllers.LivresControllers (WebHello).
+2022-03-15 06:29:43.782 +01:00 [INF] [GET]: 
+2022-03-15 06:29:43.792 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-15 06:29:43.805 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."ID", "l"."ISBN", "l"."Title"
+FROM "Livres" AS "l"
+2022-03-15 06:29:43.816 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebHello.Livre, WebHello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-15 06:29:43.825 +01:00 [INF] Executed action WebHello.Controllers.LivresControllers.Get (WebHello) in 43.7206ms
+2022-03-15 06:29:43.828 +01:00 [INF] Executed endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:29:43.836 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44388/api/showLivres - - - 200 - application/json;+charset=utf-8 103.9642ms
+2022-03-15 06:31:20.053 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44388/api/showLivres - -
+2022-03-15 06:31:20.061 +01:00 [INF] Executing endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:31:20.076 +01:00 [INF] Route matched with {action = "Get", controller = "LivresControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[WebHello.Livre]] Get() on controller WebHello.Controllers.LivresControllers (WebHello).
+2022-03-15 06:31:20.082 +01:00 [INF] [GET]: 
+2022-03-15 06:31:20.117 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-15 06:31:20.148 +01:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."ID", "l"."ISBN", "l"."Title"
+FROM "Livres" AS "l"
+2022-03-15 06:31:20.161 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebHello.Livre, WebHello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-15 06:31:20.202 +01:00 [INF] Executed action WebHello.Controllers.LivresControllers.Get (WebHello) in 120.4239ms
+2022-03-15 06:31:20.208 +01:00 [INF] Executed endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:31:20.223 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44388/api/showLivres - - - 200 - application/json;+charset=utf-8 169.6301ms
+2022-03-15 06:38:55.753 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44388/api/showLivres - -
+2022-03-15 06:38:55.761 +01:00 [INF] Executing endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:38:55.765 +01:00 [INF] Route matched with {action = "Get", controller = "LivresControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[WebHello.Livre]] Get() on controller WebHello.Controllers.LivresControllers (WebHello).
+2022-03-15 06:38:55.768 +01:00 [INF] [GET]: 
+2022-03-15 06:38:55.772 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-15 06:38:55.806 +01:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."ID", "l"."ISBN", "l"."Title"
+FROM "Livres" AS "l"
+2022-03-15 06:38:55.812 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebHello.Livre, WebHello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-15 06:38:55.828 +01:00 [INF] Executed action WebHello.Controllers.LivresControllers.Get (WebHello) in 60.4513ms
+2022-03-15 06:38:55.834 +01:00 [INF] Executed endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:38:55.837 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44388/api/showLivres - - - 200 - application/json;+charset=utf-8 84.0364ms
+2022-03-15 06:51:15.235 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44388/api/showLivres - -
+2022-03-15 06:51:15.250 +01:00 [INF] Executing endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:51:15.271 +01:00 [INF] Route matched with {action = "Get", controller = "LivresControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[WebHello.Livre]] Get() on controller WebHello.Controllers.LivresControllers (WebHello).
+2022-03-15 06:51:15.276 +01:00 [INF] [GET]: 
+2022-03-15 06:51:15.281 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-15 06:51:15.296 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."ID", "l"."ISBN", "l"."Title"
+FROM "Livres" AS "l"
+2022-03-15 06:51:15.304 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebHello.Livre, WebHello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-15 06:51:15.317 +01:00 [INF] Executed action WebHello.Controllers.LivresControllers.Get (WebHello) in 41.8258ms
+2022-03-15 06:51:15.321 +01:00 [INF] Executed endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:51:15.329 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44388/api/showLivres - - - 200 - application/json;+charset=utf-8 94.1396ms
+2022-03-15 06:57:49.434 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44388/api/showLivres - -
+2022-03-15 06:57:49.446 +01:00 [INF] Executing endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:57:49.470 +01:00 [INF] Route matched with {action = "Get", controller = "LivresControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[WebHello.Livre]] Get() on controller WebHello.Controllers.LivresControllers (WebHello).
+2022-03-15 06:57:49.474 +01:00 [INF] [GET]: 
+2022-03-15 06:57:49.479 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-15 06:57:49.492 +01:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."ID", "l"."ISBN", "l"."Title"
+FROM "Livres" AS "l"
+2022-03-15 06:57:49.502 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebHello.Livre, WebHello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-15 06:57:49.507 +01:00 [INF] Executed action WebHello.Controllers.LivresControllers.Get (WebHello) in 33.7838ms
+2022-03-15 06:57:49.510 +01:00 [INF] Executed endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:57:49.517 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44388/api/showLivres - - - 200 - application/json;+charset=utf-8 82.8058ms
+2022-03-15 06:58:01.727 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44388/api/showLivres - -
+2022-03-15 06:58:01.734 +01:00 [INF] Executing endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:58:01.742 +01:00 [INF] Route matched with {action = "Get", controller = "LivresControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[WebHello.Livre]] Get() on controller WebHello.Controllers.LivresControllers (WebHello).
+2022-03-15 06:58:01.750 +01:00 [INF] [GET]: 
+2022-03-15 06:58:01.759 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-15 06:58:01.781 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."ID", "l"."ISBN", "l"."Title"
+FROM "Livres" AS "l"
+2022-03-15 06:58:01.796 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebHello.Livre, WebHello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-15 06:58:01.800 +01:00 [INF] Executed action WebHello.Controllers.LivresControllers.Get (WebHello) in 51.7704ms
+2022-03-15 06:58:01.803 +01:00 [INF] Executed endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:58:01.807 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44388/api/showLivres - - - 200 - application/json;+charset=utf-8 80.8753ms
+2022-03-15 06:58:46.640 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44388/api/showLivres - -
+2022-03-15 06:58:46.650 +01:00 [INF] Executing endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:58:46.656 +01:00 [INF] Route matched with {action = "Get", controller = "LivresControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[WebHello.Livre]] Get() on controller WebHello.Controllers.LivresControllers (WebHello).
+2022-03-15 06:58:46.663 +01:00 [INF] [GET]: 
+2022-03-15 06:58:46.670 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-15 06:58:46.699 +01:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."ID", "l"."ISBN", "l"."Title"
+FROM "Livres" AS "l"
+2022-03-15 06:58:46.732 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebHello.Livre, WebHello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-15 06:58:46.744 +01:00 [INF] Executed action WebHello.Controllers.LivresControllers.Get (WebHello) in 81.4357ms
+2022-03-15 06:58:46.752 +01:00 [INF] Executed endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:58:46.768 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44388/api/showLivres - - - 200 - application/json;+charset=utf-8 127.8936ms
+2022-03-15 06:59:48.893 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44388/api/showLivres - -
+2022-03-15 06:59:48.900 +01:00 [INF] Executing endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:59:48.918 +01:00 [INF] Route matched with {action = "Get", controller = "LivresControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[WebHello.Livre]] Get() on controller WebHello.Controllers.LivresControllers (WebHello).
+2022-03-15 06:59:48.923 +01:00 [INF] [GET]: 
+2022-03-15 06:59:48.935 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-15 06:59:48.945 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."ID", "l"."ISBN", "l"."Title"
+FROM "Livres" AS "l"
+2022-03-15 06:59:48.971 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebHello.Livre, WebHello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-15 06:59:48.981 +01:00 [INF] Executed action WebHello.Controllers.LivresControllers.Get (WebHello) in 58.2604ms
+2022-03-15 06:59:48.985 +01:00 [INF] Executed endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 06:59:48.989 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44388/api/showLivres - - - 200 - application/json;+charset=utf-8 95.5961ms
+2022-03-15 07:00:23.578 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:44388/api/showLivres - -
+2022-03-15 07:00:23.585 +01:00 [INF] Executing endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 07:00:23.588 +01:00 [INF] Route matched with {action = "Get", controller = "LivresControllers", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IList`1[WebHello.Livre]] Get() on controller WebHello.Controllers.LivresControllers (WebHello).
+2022-03-15 07:00:23.591 +01:00 [INF] [GET]: 
+2022-03-15 07:00:23.597 +01:00 [INF] Entity Framework Core 5.0.12 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite' with options: None
+2022-03-15 07:00:23.614 +01:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "l"."ID", "l"."ISBN", "l"."Title"
+FROM "Livres" AS "l"
+2022-03-15 07:00:23.625 +01:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[WebHello.Livre, WebHello, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-15 07:00:23.630 +01:00 [INF] Executed action WebHello.Controllers.LivresControllers.Get (WebHello) in 39.458ms
+2022-03-15 07:00:23.639 +01:00 [INF] Executed endpoint 'WebHello.Controllers.LivresControllers.Get (WebHello)'
+2022-03-15 07:00:23.645 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:44388/api/showLivres - - - 200 - application/json;+charset=utf-8 66.8007ms

@@ -1,0 +1,23 @@
+﻿@page
+@model Login
+@{
+    ViewData["Title"] = "Login";
+}
+
+@{
+var usernameLabel = "Login : "; 
+var passwordLabel = "Mot de passe :"; 
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+   <form method="post">
+       <label>@usernameLabel</label>
+       <input type="text" id="username" name="username"/> 
+       <label>@passwordLabel</label>
+       <input type="password" id="pass" name="password"/>
+       <input type="submit" value="Submit" />
+   </form>
+
+   <h1>@Model.message</h1>
+</div>
